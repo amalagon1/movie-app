@@ -22,23 +22,29 @@ body {
 }
 
 .trending {
+    margin-top: 3rem;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    gap: 12px;
+    overflow-x: auto;
+}
+
+.trending::-webkit-scrollbar {
+    display: none;
 }
 
 .card {
     display: flex;
     flex-direction: column;
     width: 200px;  
-    /* height: 500px;  */
     height: 400px;
-    margin: 7px;
+    /* margin: 7px; */
     /* background-color: #6F8FAF; */
     background: black;
     padding: 5px;
     border-radius: 8px;
     text-align: center;
-    position: relative;
+    /* position: relative; */
     /* transform: translateX(45px); */
     /* overflow: hidden; */
 }

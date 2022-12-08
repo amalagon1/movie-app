@@ -6,7 +6,7 @@ const WatchList = ({ watchlist, setwatchlist, faves, setFaves }) => {
 
     return (
         <div>
-            <h2> My Watch-List</h2>
+            <h1> Watch-List</h1>
             {watchlist.length && (
                 <div className="results">
                     {watchlist.map(movie => (
